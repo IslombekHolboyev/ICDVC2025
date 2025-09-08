@@ -1,0 +1,83 @@
+.infoblocks {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 40px;
+ max-width: 1200px;
+ margin: 40px auto;
+ margin-top: 100px;
+}
+
+.infoblock {
+ display: flex;
+ align-items: center;
+ font-size: 16px;
+ color: white;
+ padding: 15px;
+ border-radius: 6px;
+	min-height: 180px; 
+}
+
+.infoblock span {
+ font-size: 80px;
+ font-weight: bold;
+ margin-right: 10px;
+ opacity: 0.9;
+}
+
+.infoblock p {
+ margin: 0;
+}
+
+/* Цвета */
+.infoblock1 {
+ background: #6ec1bd;
+}
+
+.infoblock2 {
+ background: #1f5a96;
+}
+
+.infoblock3 {
+ background: #e06555;
+}
+
+.infoblock4 {
+ background: #f0c340;
+ color: #333;
+}
+
+.infoblock5 {
+ background: #4caf50;
+}
+
+.infoblock6 {
+ background: #333;
+}
+
+.infoblock7 {
+ background: #748;
+}
+
+.infoblock8 {
+ background: #438;
+}
+
+.infoblock9 {
+ background: #915;
+}
+
+.infoblock10 {
+ background: #917;
+}
+
+.infoblock11 {
+ background: #762;
+}
+
+.infoblock12 {
+ background: #534;
+}
+
+.infoblock13 {
+ background: #951;
+}

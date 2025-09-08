@@ -1,0 +1,30 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+
+body {
+ background: #FAFAFA;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ /**  Основной: #1B4332   */
+ /* Вторичный: #95D5B2 */
+ /* Акцент: #FFD166 */
+ /* Фон: #FAFAFA или #FFFFFF */
+ /* Текст: #212529 */
+}
+
+a,
+li,
+ul {
+ text-decoration: none;
+ list-style: none;
+}
+
+.container {
+ width: 100%;
+ max-width: 1240px;
+ padding: 0 15px;
+ margin: 0 auto;
+}

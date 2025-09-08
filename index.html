@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/media.css" />
+    <title>ICDVC2025</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html">
+            <div class="LOGO">
+              <img src="assets/images/snakelogo.jpg" alt="Logo" class="logo" />
+              <img src="assets/images/logoISD.jpg" alt="Logo" class="logo" />
+              <img
+                src="assets/images/logo O'ZDVETA.png"
+                alt="Logo"
+                class="logo"
+              />
+              <img src="assets/images/logo.jpg" alt="Logo" class="logo" />
+            </div>
+          </a>
+          <button class="burger" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <ul class="header__list">
+            <li class="header__list-link">
+              <a href="index.html">ICDV&C-2025</a>
+            </li>
+            <li class="header__list-link">
+              <a href="conference.html" data-i18n="conference">О конференции</a>
+            </li>
+            <li class="header__list-link">
+              <a href="speakers.html" data-i18n="speakers">Спикеры</a>
+            </li>
+            <li class="header__list-link">
+              <a href="sections.html" data-i18n="sections">Секции</a>
+            </li>
+            <li class="header__list-link">
+              <a href="https://uzbekistan.travel/en/" data-i18n="tours">Туры</a>
+            </li>
+            <li class="header__list-link">
+              <a href="#place" data-i18n="where">Место</a>
+            </li>
+            <li class="header__list-link">
+              <a href="#contacts" data-i18n="contacts">Контакты</a>
+            </li>
+            <div class="lang-dropdown">
+              <button class="lang-btn">🌐</button>
+              <ul class="lang-menu">
+                <li data-lang="ru">🇷🇺 Русский</li>
+                <li data-lang="en">🇬🇧 English</li>
+                <li data-lang="uz">🇺🇿 O‘zbekcha</li>
+              </ul>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="video-wrapper">
+        <video
+          class="video-bg"
+          src="assets/videos/main.mp4"
+          autoplay
+          loop
+          playsinline
+          muted
+        ></video>
+        <div class="video-overlay"></div>
+        <div class="video-content">
+          <h1 data-i18n="h1">Международная научно-практическая конференция</h1>
+          <p data-i18n="p">
+            «Современные междисциплинарные подходы в дерматовенерологической и
+            эстетической медицине»
+          </p>
+          <p data-i18n="date">17–18 октября 2025, г. Ташкент</p>
+          <a href="#contacts" class="btn" data-i18n="apply">Записаться</a>
+        </div>
+      </div>
+
+      <section class="welcome">
+        <div class="welcome__container">
+          <div class="welcome__image"></div>
+          <div class="welcome__text">
+            <p data-i18n="start">Уважаемые коллеги! Дорогие друзья!</p>
+            <p data-i18n="main">
+              От имени РСНПМЦДВиК МЗРУз, Ассоциации Дерматовенерологов
+              Узбекистана и от себя лично сердечно приветствую Вас по случаю
+              открытия Международной научно-практической конференции
+              «Современные междисциплинарные подходы в дерматологической и
+              эстетической медицине» (ICDV&C-2025).
+            </p>
+            <p data-i18n="main2">
+              Основная цель нашей конференции заключается в объективном,
+              междисциплинарном взаимодействии специалистов дерматовенерологов и
+              косметологов, а также врачей смежных специальностей, разработка
+              оказания помощи по профилям «дерматовенерология» и «косметология»,
+              разработка клинических и методических рекомендаций, стандартов
+              лечения.
+            </p>
+            <p data-i18n="main3">
+              Уверен, что благоприятный научно-исследовательский климат
+              мероприятия послужит залогом успешной реализации интеллектуального
+              потенциала, разработки новых медицинских технологий и их внедрения
+              в практическое здравоохранение Республики Узбекистан. Также
+              рассчитываю, что конференция будет содействовать укреплению
+              международного научного сотрудничества, а ее результаты будут
+              непременно воплощены в практику.
+            </p>
+            <p data-i18n="finish">
+              Желаю участникам Конференции успешной и плодотворной работы, новых
+              творческих идей, благополучия и здоровья!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <h2 class="stats__title">ICDV&C-2025</h2>
+        <div class="stats__container">
+          <div class="stat">
+            <i class="fa-solid fa-earth-americas"></i>
+            <span class="num" data-val="43">0</span>
+            <span class="text" data-i18n="country">Стран</span>
+          </div>
+          <div class="stat">
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            <span class="num" data-val="150">0</span>
+            <span class="text" data-i18n="lectures">Лекций</span>
+          </div>
+          <div class="stat">
+            <i class="fa fa-handshake" aria-hidden="true"></i>
+            <span class="num" data-val="38">0</span>
+            <span class="text" data-i18n="sponsors">Спонсоров</span>
+          </div>
+          <div class="stat">
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+            <span class="num" data-val="13">0</span>
+            <span class="text" data-i18n="sessions">Сессий</span>
+          </div>
+          <div class="stat">
+            <i class="fa fa-users" aria-hidden="true"></i>
+            <span class="num" data-val="1000">0</span>
+            <span class="text" data-i18n="members"
+              >Общее кол-во участников</span
+            >
+          </div>
+          <div class="stat">
+            <i class="fa-solid fa-table"></i>
+            <span class="num" data-val="114">0</span>
+            <span class="text" data-i18n="sheets">Стенды</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsors">
+        <div class="congress">
+          <h3 class="general" data-i18n="congress">Генеральный партнёр</h3>
+          <div class="logos">
+            <img
+              src="assets/images/sponsors/partner/Bella Systech.png"
+              alt="Партнёр конгресса"
+            />
+          </div>
+        </div>
+        <div class="section-divider"></div>
+        <div class="lower-sponsors">
+          <div class="platinum">
+            <h3 class="general" data-i18n="plat">Платиновый спонсор</h3>
+            <div class="logos">
+              <img
+                src="assets/images/sponsors/Plat/ФОРТИС.ТВАК-Photoroom.png"
+                alt="Платиновый спонсор 1"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="section-divider"></div>
+
+        <div class="general-sponsors">
+          <h3 class="general" data-i18n="general">Генеральные спонсоры</h3>
+          <div class="logos">
+            <img
+              src="assets/images/sponsors/General/Arash (2).png"
+              alt="Генеральный спонсор 1"
+            />
+            <img
+              src="assets/images/sponsors/General/Fotona.png"
+              alt="Генеральный спонсор 2"
+            />
+          </div>
+        </div>
+
+        <div class="section-divider"></div>
+        <!-- Карусели -->
+        <!-- Золотые спонсоры -->
+        <div class="scroll-section">
+          <h3 class="general" data-i18n="gold">Золотые спонсоры</h3>
+          <div class="scroll animated">
+            <div class="logos-track">
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/Berlin-Chemie.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/BIODERMA.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/BTL.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/La-Roshe-Posay.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/фармаприм-Photoroom.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/Novartis.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/TheOneAlma.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/Viferon-Photoroom.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/Zandra.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/BNC Global.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <!-- дублируем ленту для бесшовного скролла -->
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/Berlin-Chemie.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/BIODERMA.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/BTL.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/La-Roshe-Posay.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/фармаприм-Photoroom.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/Novartis.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/TheOneAlma.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/Viferon-Photoroom.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/Zandra.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Gold/BNC Global.png"
+                  alt="Золотой спонсор"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-divider"></div>
+        <!-- Серебряные спонсоры -->
+        <div class="scroll-section">
+          <h3 class="general" data-i18n="silver">Серебряные спонсоры</h3>
+          <div class="scroll animated">
+            <div class="logos-track">
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/лого Аджио.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/Doppelherz.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/IM.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/jgl.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/orville.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/Oxford_logo.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/AB logo PNG-05.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <!-- дублируем ленту -->
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/лого Аджио.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/Doppelherz.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/IM.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/jgl.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/orville.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/Oxford_logo.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+              <div class="logo-box">
+                <img
+                  src="assets/images/sponsors/Silver/AB logo PNG-05.png"
+                  alt="Серебряный спонсор"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-divider"></div>
+        <div class="scroll-section bronze-sponsors">
+          <h3 class="general" data-i18n="bronze">Бронзовые спонсоры</h3>
+          <div class="logos bronze-logos">
+            <div class="scroll animated">
+              <div class="logos-track">
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/epta.png"
+                    alt="Бронзовый спонсор 1"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/premaesth.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/LOGO SERENE colored v17 RU.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/Polpharma logo-Photoroom.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/Гиалуаль-Photoroom.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/glenmark-pharmaceuticals-logo-png_seeklogo-449848.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/inward-Photoroom.png"
+                    alt="Бронзовый спонсор 1"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/Лого Vegapharm.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/pas kotta logo.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/Лого Нобель 2 вида-Photoroom.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/лого фатидерм корел.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+
+                <!--  -->
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/epta.png"
+                    alt="Бронзовый спонсор 1"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/premaesth.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/LOGO SERENE colored v17 RU.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/Polpharma logo-Photoroom.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/Гиалуаль-Photoroom.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/glenmark-pharmaceuticals-logo-png_seeklogo-449848.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/inward-Photoroom.png"
+                    alt="Бронзовый спонсор 1"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/Лого Vegapharm.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/pas kotta logo.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/Лого Нобель 2 вида-Photoroom.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+                <div class="logo-box">
+                  <img
+                    src="assets/images/sponsors/Bronze/лого фатидерм корел.png"
+                    alt="Бронзовый спонсор 2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="venue" id="place">
+        <h2 class="venue__title" data-i18n="place">Место проведения</h2>
+        <div class="venue__card">
+          <div class="venue__gallery">
+            <img src="assets/images/hotel.avif" alt="Отель" />
+            <img src="assets/images/hilton__title.jpg" alt="Номер" />
+            <img src="assets/images/main.webp" alt="Лобби" />
+          </div>
+          <div class="venue__info">
+            <h3>Hilton Tashkent City</h3>
+            <ul class="venue__details">
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <p data-i18n="location">
+                  Узбекистан, Ташкент, улица Укчи, дом 1, индекс 100027.
+                </p>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <p>+998 71 210 88 88</p>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <p data-i18n="mail">reservations@hilton-tashkent.com</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="venue__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5993.512222256913!2d69.248865!3d41.314169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b685b689e13%3A0xaf4cdf526e02f5e7!2z0JPQvtGB0YLQuNC90LjRhtCwICLQpdC40LvRgtC-0L0gLSDQotCw0YjQutC10L3RgiI!5e0!3m2!1sru!2snl!4v1756743473167!5m2!1sru!2snl"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="join" id="join">
+        <h2 class="join__title" data-i18n="join">Участие</h2>
+        <div class="join__card">
+          <div class="join__inner">
+            <h2 data-i18n="join__h2">
+              Публикация <br />
+              научных тезисов
+            </h2>
+            <p data-i18n="deadline1">(Дедлайн: 15 сентябрь)</p>
+            <form
+              action="https://formspree.io/f/xrbaokoe"
+              method="POST"
+              class="join__form"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Ваше имя / организация"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Ваш email"
+                required
+              />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Ваш номер телефона"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Ваше сообщение"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit" data-i18n="send">Отправить</button>
+            </form>
+          </div>
+
+          <div class="join__inner">
+            <h2 data-i18n="join__h22">Заявление об участии</h2>
+            <p data-i18n="deadline2">(Дедлайн: 10 октябрь)</p>
+            <form
+              action="https://formspree.io/f/xrbaokoe"
+              method="POST"
+              class="join__form"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Название компании"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Ваш email"
+                required
+              />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Ваш номер телефона"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Ваше сообщение"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit" data-i18n="send">Отправить</button>
+            </form>
+          </div>
+
+          <div class="join__inner">
+            <h2 data-i18n="join__h23">
+              Заявление <br />
+              участии фарм компании
+            </h2>
+            <p data-i18n="deadline3">(Дедлайн: 10 октябрь)</p>
+            <form
+              action="https://formspree.io/f/xrbaokoe"
+              method="POST"
+              class="join__form"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Название компании"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Ваш email"
+                required
+              />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Ваш номер телефона"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Ваше сообщение"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit" data-i18n="send">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <h2 class="contacts__title" data-i18n="contacts">Контакты</h2>
+        <div class="contacts__card">
+          <div class="contacts__inner">
+            <div class="contacts__info">
+              <ul>
+                <li>
+                  <i class="fas fa-phone"></i>
+                  <p>Call Centre: +998 (55) 505-00-00</p>
+                </li>
+                <li>
+                  <i class="fas fa-phone"></i>
+                  <p>+998 (90) 114-88-83</p>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <p>niidiv@mail.ru</p>
+                </li>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p data-i18n="location2">
+                    Узбекистан, 100109 г.Ташкент, Алмазарский район, ул.Фараби
+                    530
+                  </p>
+                </li>
+              </ul>
+              <div class="contacts__socials">
+                <a href="https://t.me/+R0uYyA13LxSwL9vs"
+                  ><i class="fab fa-telegram-plane"></i
+                ></a>
+                <a href="https://www.facebook.com/ulugbek.sabirov.660137"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=niidiv@mail.ru"
+                  target="_blank"
+                >
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <style>
+          .footer {
+            margin-top: -55px;
+            background: #f9f9f9; /* почти белый, но чуть сероватый */
+            color: #444; /* тёмно-серый текст */
+            padding: 20px 10px;
+            text-align: center;
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-size: 14px;
+            border-top: 1px solid #e0e0e0; /* тонкая разделительная линия сверху */
+          }
+
+          .footer__content p {
+            margin: 5px 0;
+          }
+
+          .footer__content a {
+            color: #0073e6; /* приятный синий акцент */
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+          }
+
+          .footer__content a:hover {
+            color: #005bb5; /* чуть темнее при наведении */
+          }
+        </style>
+
+        <div class="footer__content">
+          <p>
+											<p data-i18n="dev">
+            Разработчик:
+											</p>
+            <a href="https://github.com/IslombekHolboyev" target="_blank">
+              Islombek Xolboev
+            </a>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="assets/scripts/burger.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
+    <script src="assets/scripts/counter.js"></script>
+    <script src="assets/scripts/lang.js"></script>
+  </body>
+</html>

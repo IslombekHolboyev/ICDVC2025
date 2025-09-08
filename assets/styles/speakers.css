@@ -1,0 +1,195 @@
+.main {
+ margin-top: 100px;
+}
+
+.about__title {
+ text-align: center;
+ font-size: 42px;
+ font-weight: 800;
+ margin-bottom: 30px;
+ color: #1e3c72;
+}
+
+.speakers-grid {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 40px;
+ /* расстояние между карточками */
+}
+
+/* Простая карточка */
+.card-simple {
+ width: 220px;
+ height: 300px;
+ border-radius: 20px;
+ overflow: hidden;
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-simple:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+.card-photo-simple {
+ width: 100%;
+ height: 100%;
+ background-image: url('../images/speakers/director.jpg');
+ background-size: cover;
+ background-position: center;
+}
+
+/* Задаём картинки через nth-child */
+.speakers-grid .card-simple:nth-child(1) .card-photo-simple {
+ background-image: url('../images/speakers/director.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(2) .card-photo-simple {
+ background-image: url('../images/speakers/konnikova.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(3) .card-photo-simple {
+ background-image: url('../images/speakers/akram.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(4) .card-photo-simple {
+ background-image: url('../images/speakers/gulnar.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(5) .card-photo-simple {
+ background-image: url('../images/speakers/shaxnoza.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(6) .card-photo-simple {
+ background-image: url('../images/speakers/vitaliy.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(7) .card-photo-simple {
+ background-image: url('../images/speakers/xilola.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(8) .card-photo-simple {
+ background-image: url('../images/speakers/elena.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(9) .card-photo-simple {
+ background-image: url('../images/speakers/delya.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(10) .card-photo-simple {
+ background-image: url('../images/speakers/kassir.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(11) .card-photo-simple {
+ background-image: url('../images/speakers/ahmat.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(12) .card-photo-simple {
+ background-image: url('../images/speakers/lally.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(13) .card-photo-simple {
+ background-image: url('../images/speakers/nargiza.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(14) .card-photo-simple {
+ background-image: url('../images/speakers/alex.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(15) .card-photo-simple {
+ background-image: url('../images/speakers/munisa.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(16) .card-photo-simple {
+ background-image: url('../images/speakers/mikkelsen.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(17) .card-photo-simple {
+ background-image: url('../images/speakers/jafferany.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(18) .card-photo-simple {
+ background-image: url('../images/speakers/vasya.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(19) .card-photo-simple {
+ background-image: url('../images/speakers/tatyana.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(20) .card-photo-simple {
+ background-image: url('../images/speakers/paoli.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(21) .card-photo-simple {
+ background-image: url('../images/speakers/natally.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(22) .card-photo-simple {
+ background-image: url('../images/speakers/ahmed.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(23) .card-photo-simple {
+ background-image: url('../images/speakers/roxanna.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(24) .card-photo-simple {
+ background-image: url('../images/speakers/anton.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(25) .card-photo-simple {
+ background-image: url('../images/speakers/usman.jpg');
+}
+
+.speakers-grid .card-simple:nth-child(26) .card-photo-simple {
+ background-image: url('../images/speakers/evgeniy.jpg');
+}
+.speakers-grid .card-simple:nth-child(27) .card-photo-simple {
+ background-image: url('../images/speakers/szepietowski.jpg');
+}
+
+
+/* ...и так далее для всех карточек */
+
+/* Модальное окно */
+.modal {
+ display: none;
+ /* скрыто по умолчанию */
+ position: fixed;
+ z-index: 1000;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ overflow: auto;
+ background-color: rgba(0, 0, 0, 0.9);
+ /* темный фон */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/* Фото внутри модалки */
+.modal-content {
+ max-width: 90%;
+ max-height: 90%;
+ border-radius: 15px;
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Крестик закрытия */
+.modal-close {
+ position: absolute;
+ top: 20px;
+ right: 35px;
+ color: #fff;
+ font-size: 40px;
+ font-weight: bold;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+.modal-close:hover {
+ color: #ccc;
+}
